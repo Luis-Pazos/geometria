@@ -4,13 +4,6 @@ public class Triangulo_LMPM extends FiguraGeometrica_LMPM {
 	private double b;
 	private double c;
 	
-	public Triangulo_LMPM(String tipoFigura, double lado1, double lado2, double lado3) {
-		super(tipoFigura);
-		a = lado1;
-		b = lado2;
-		c = lado3;
-	}
-
 	@Override
 	public double perimetro() {
 		return a + b + c;
@@ -19,7 +12,7 @@ public class Triangulo_LMPM extends FiguraGeometrica_LMPM {
 	@Override
 	public double area() { //Utiliza la formula de Her�n
 		double sp;
-		sp = this.semiPerimetro();
+		sp = this.perimetro() / 2;
 		return Math.sqrt(sp * (sp-a) * (sp-b) * (sp-c));
 	}
 	
