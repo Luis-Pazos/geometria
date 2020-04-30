@@ -1,10 +1,10 @@
 
-public class Triangulo extends FiguraGeometrica {
+public class Triangulo_LMPM extends FiguraGeometrica_LMPM {
 	private double a;
 	private double b;
 	private double c;
 	
-	public Triangulo(String tipoFigura, double lado1, double lado2, double lado3) {
+	public Triangulo_LMPM(String tipoFigura, double lado1, double lado2, double lado3) {
 		super(tipoFigura);
 		a = lado1;
 		b = lado2;
