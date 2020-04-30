@@ -15,9 +15,5 @@ public class Triangulo_LMPM extends FiguraGeometrica_LMPM {
 		sp = this.perimetro() / 2;
 		return Math.sqrt(sp * (sp-a) * (sp-b) * (sp-c));
 	}
-	
-	public double semiPerimetro() {
-		return this.perimetro() / 2;
-	}
 }
 
