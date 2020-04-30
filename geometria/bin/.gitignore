@@ -1,9 +1,2 @@
-/Circulo.class
-/FiguraGeometrica.class
-/Rectangulo.class
-/Triangulo.class
-/Circulo_LMPM.class
-/FiguraGeometrica_LMPM.class
-/RectanguloLMPM.class
-/Triangulo_LMPM.class
-/Rectangulo_LMPM.class
+/geometria/
+/Circulo_LMPMTest.class
