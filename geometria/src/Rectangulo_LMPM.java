@@ -1,4 +1,10 @@
-
+/**
+ *
+ * @author luismiguelpazosmoreno
+ * @version 1.2
+ * 
+ *
+ */
 public class Rectangulo_LMPM extends FiguraGeometrica_LMPM {
 	private double l1;
 	private double l2;
